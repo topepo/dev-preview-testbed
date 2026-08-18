@@ -1,0 +1,7 @@
+# Preface
+
+A throwaway book used to exercise `publish-dev.sh` and `cleanup-dev.sh` against
+a real GitHub Pages staging site. It mirrors the parts of the real book that the
+preview workflow touches: a `book` project with chapters in a subdirectory,
+`freeze: auto` with committed `_freeze/`, a themed HTML format, a production
+`site-url`, Google Analytics, and a `CNAME` listed under `resources`.

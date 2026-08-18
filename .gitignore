@@ -1,0 +1,10 @@
+/.quarto/
+
+# intermediate results
+/_book/
+
+# dev preview builds (see publish-dev.sh)
+/_book-dev/
+/_quarto-dev-*.yml
+
+**/*.quarto_ipynb

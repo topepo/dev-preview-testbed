@@ -1,0 +1,17 @@
+{
+  "hash": "fe098913b9bf2c7293dd1c02e28fd223",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Analysis\n\nA computed figure, so `_freeze/` is real and figure paths get exercised. See\n@fig-scatter.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![Simulated data, plotted so the render produces a figure file.](analysis_files/figure-html/fig-scatter-1.png){#fig-scatter width=576}\n:::\n:::\n\n",
+    "supporting": [
+      "analysis_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

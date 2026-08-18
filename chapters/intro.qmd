@@ -1,0 +1,6 @@
+# Introduction
+
+Plain prose, no computation. Exists so the preview has more than one output
+file and a nested `chapters/` output path for `rsync` to handle.
+
+Math renders through KaTeX: $y = \beta_0 + \beta_1 x + \epsilon$.

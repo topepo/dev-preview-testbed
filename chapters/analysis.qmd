@@ -1,0 +1,13 @@
+# Analysis
+
+A computed figure, so `_freeze/` is real and figure paths get exercised. See
+@fig-scatter.
+
+```{r}
+#| label: fig-scatter
+#| fig-cap: "Simulated data, plotted so the render produces a figure file."
+set.seed(1)
+x <- rnorm(50)
+y <- 2 * x + rnorm(50)
+plot(x, y, pch = 19, col = "#1f6feb")
+```
