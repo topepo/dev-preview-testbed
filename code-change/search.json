@@ -1,0 +1,34 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dev Preview Testbed",
+    "section": "",
+    "text": "1 Preface\nA throwaway book (EDITED-MARKER-42) used to exercise publish-dev.sh and cleanup-dev.sh against a real GitHub Pages staging site. It mirrors the parts of the real book that the preview workflow touches: a book project with chapters in a subdirectory, freeze: auto with committed _freeze/, a themed HTML format, a production site-url, Google Analytics, and a CNAME listed under resources.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/intro.html",
+    "href": "chapters/intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "Plain prose, no computation. Exists so the preview has more than one output file and a nested chapters/ output path for rsync to handle.\nMath renders through KaTeX: y = \\beta_0 + \\beta_1 x + \\epsilon.",
+    "crumbs": [
+      "Preparation",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/analysis.html",
+    "href": "chapters/analysis.html",
+    "title": "3  Analysis",
+    "section": "",
+    "text": "A computed figure, so _freeze/ is real and figure paths get exercised. See Figure 3.1.\n\n\n\n\n\n\n\n\nFigure 3.1: Simulated data, plotted so the render produces a figure file.",
+    "crumbs": [
+      "Modeling",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analysis</span>"
+    ]
+  }
+]
