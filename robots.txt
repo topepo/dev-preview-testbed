@@ -1,1 +1,2 @@
-Sitemap: https://warm-bread-coffin.org/sitemap.xml
+User-agent: *
+Disallow: /
