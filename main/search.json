@@ -30,16 +30,5 @@
       "Modeling",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Analysis</span>"
     ]
-  },
-  {
-    "objectID": "chapters/extra.html",
-    "href": "chapters/extra.html",
-    "title": "4  Temporary Chapter",
-    "section": "",
-    "text": "This chapter exists only to be deleted, so that stale-file pruning can be verified against live GitHub Pages.",
-    "crumbs": [
-      "Modeling",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Temporary Chapter</span>"
-    ]
   }
 ]
