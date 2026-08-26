@@ -227,6 +227,26 @@ window.Quarto = {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<div class="dev-preview-banner">
+  <strong>Draft preview</strong>
+  <span>branch <code>code-change</code> at <code>6a73a43</code></span>
+  <span>Not the published book —
+    <a href="https://aml4td.org">read aml4td.org</a></span>
+  <span><a href="https://warm-bread-coffin.org/">all previews</a></span>
+</div>
+<style>
+.dev-preview-banner {
+  position: sticky; top: 0; z-index: 500;
+  display: flex; flex-wrap: wrap; gap: 0.35rem 1.1rem; align-items: baseline;
+  margin: 0 0 1.5rem; padding: 0.55rem 0.9rem;
+  background: #fdf3d8; border: 1px solid #e3c874; border-radius: 4px;
+  color: #4a3708; font-size: 0.85rem; line-height: 1.35;
+}
+.dev-preview-banner strong { color: #8a5a00; text-transform: uppercase; letter-spacing: 0.03em; }
+.dev-preview-banner code { background: #f6e6bd; color: #4a3708; padding: 0 0.25em; font-size: 0.95em; }
+.dev-preview-banner a { color: #7a4a00; text-decoration: underline; }
+@media print { .dev-preview-banner { display: none; } }
+</style>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
